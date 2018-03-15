@@ -1,0 +1,554 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
+
+@font-face{
+    font-family: 'PFAgoraSansPro';
+    src: url('../fonts/pfagorasanspro-reg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'PFAgoraSansPro';
+    src: url('../fonts/pfagorasanspro-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'PFAgoraSansPro';
+    src: url('../fonts/pfagorasanspro-light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'PFAgoraSansPro';
+    src: url('../fonts/pfagorasanspro-thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: 'PFAgoraSansPro', sans-serif;
+    color: #000000;
+}
+
+p,
+ul,
+h2,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+ p {
+    color: #000000;
+}
+.text-center {
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.button {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    width: 375px;
+}
+
+.button a {
+    display: block;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-weight: 100;
+    font-size: 26px;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 20px 35px;
+    transition: 0.4s;
+}
+
+.button a:hover {
+    text-decoration: none; 
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.red {
+    color: #e11a27;
+    font-weight: bold;
+}
+
+ /* start HEADER */
+.logo {
+    margin: 25px;
+    float: left;
+}
+
+.header-wrapper {
+    position: relative;
+}
+
+.telephone {
+    margin: 15px;
+    padding: 10px 35px;
+    background-color: #ffd200;
+    border-radius: 10px;
+    float: right;
+}
+
+.telephone-number {
+    border-bottom: 1px dashed #000000;
+}
+
+.burger {
+    position: absolute;
+    top: 33%;
+    left: -2%;
+}
+
+.exit-icon {
+    position: absolute;
+    top: 34%;
+    right: -3%;
+}
+ /* end HEADER */
+
+
+ /* start MAIN BANNER */
+.main-banner {
+    height: 550px;
+    background: #eae6e0 url('../img/main-bg.jpg') no-repeat top center;
+    background-size: cover;
+    padding: 10px;
+} 
+
+.main-banner-title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.main-banner-title h1 {
+    font-weight: 100;
+    font-size: 60px;
+    line-height: 50px;
+}
+
+.main-banner-title h2 {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.advantage-button a {
+    background-color: #e11a27;
+    color: #fff;
+    border: none;
+}
+/* end MAIN BANNER */
+
+
+ /* start STEPS */
+.steps {
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+.steps .row {
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+}
+
+.steps-column-item img {
+    z-index: 5;
+}
+
+.steps-column-item p {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.steps-column-text {
+    margin-top: 20px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.dashed-line {
+    border: 2px dashed #fcd40a;
+    position: absolute;
+    width: 12%;
+    left: 19%;
+    top: 30%;
+    z-index: 1;
+}
+
+.line2 {
+    left: 44%;
+}
+
+.line3 {
+    left: 69%;
+}
+ /* end STEPS */
+
+
+ /* start ADVANTAGE */
+.advantage {
+    padding-top: 5px;
+    padding-bottom: 70px;
+    background-color: #f3f0e7;
+ }
+
+.section-title {
+    margin-bottom: 45px;
+    margin-top: 45px;
+ }
+
+.section-title h2 {
+    font-weight: 100;
+    font-size: 60px;
+    line-height: 50px;
+ }
+
+.advantage-column-item {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+ /* end ADVANTAGE */
+
+
+ /* start SOLUTIONS */
+.solutions {
+    padding-top: 5px;
+    padding-bottom: 100px;
+}
+
+.solutions-column-item,
+.terms-column-item {
+    width: 300px;
+}
+
+.lightbook,
+.term {
+    margin-left: 50px;
+    margin-right: 25px;
+}
+
+.classicbook,
+.payment {
+    margin-left: 37px;
+    margin-right: 25px;
+}
+
+.classicbook {
+    position: relative;
+}
+
+.premiumbook,
+.shipping {
+    margin-left: 25px;
+    margin-right: 50px;
+}
+
+.solutions-title {
+    background-color: #ffd200;
+    height: 115px;
+    border-radius: 10px 10px 0 0;
+}
+
+.solutions-title h3 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 115px;
+}
+
+.solutions-list {
+    font-size: 18px;
+    font-weight: 400;
+    height: 170px;
+    border-left: 5px solid #ffd200;
+    border-right: 5px solid #ffd200;
+    line-height: 30px;
+    padding: 15px;
+    text-align: left;
+}
+
+.solutions-list img {
+    margin-right: 15px;
+}
+
+.solutions-price {
+    border-left: 5px solid #ffd200;
+    border-right: 5px solid #ffd200;
+}
+
+.solutions-price p {
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 70px;
+}
+
+.solutions-buy {
+    background-color: #ffd200;
+    height: 50px;
+    border-radius: 0 0 10px 10px;
+}
+
+.solutions-buy h4 {
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.bestseller {
+    position: absolute;
+    top: -22px;
+    left: 18%;
+}
+ /* end SOLUTIONS */
+
+
+ /* start TESTIMONIALS */
+.testimonials {
+    padding-top: 5px;
+    padding-bottom: 50px;
+    background: #f7f0e6 url('../img/bg-1.jpg')no-repeat top center;
+    background-size: cover;
+}
+
+.testimonials-column-item,
+.testimonials .section-title {
+    margin-left: 50px;
+}
+
+.testimonials-column-item img {
+    float: left;
+    margin-right: 25px;
+}
+
+.testimonial-person h4 {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-bottom: 8px;
+}
+
+.testimonial-person p {
+    font-size: 18px;
+}
+
+.testimonial-text {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.next-button {
+    float: right;
+    font-size: 16px;
+    font-weight: 100;
+    color: #000000;
+    margin-top: 40px;
+}
+
+.next-button img {
+    float: none;
+    margin-right: 0; 
+}
+
+.next-button:hover {
+    text-decoration: none;
+    color: #454442;
+}
+ /* end TESTIMONIALS */
+
+
+ /* start TERMS */
+.terms {
+    padding-bottom: 120px;
+    padding-top: 80px;
+}
+
+.terms-title {
+    background-color: #ffd200;
+    height: 65px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 5px;
+}
+
+.terms-title h3 {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 65px;
+}
+
+.terms-list {
+    font-size: 18px;
+    font-weight: 400;
+    height: 235px;
+    line-height: 20px;
+    padding: 25px;
+    text-align: left;
+    background-color: #f7f0e6;
+    border-radius: 0 0 10px 10px;
+}
+
+.terms-list ul {
+    list-style: disc inside;
+    margin-left: 10px;
+}
+
+.terms-list ul li {
+    line-height: 30px;
+}
+ /* end TERMS */
+
+
+ /* start FOOTER */
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ffd200;
+}
+
+.footer-column-item {
+    border-top: 1px solid #000000;
+    padding-top: 30px;
+    max-width: 150px;
+}
+
+.footer-column-item a {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer-column-item a:hover {
+    color: #454442;
+    text-decoration: none;
+}
+
+.quick-about {
+    margin-left: 50px;
+}
+
+.quick-social {
+    margin-right: 50px;
+    float: right;
+}
+
+.quick-social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.fa {
+    font-size: 24px; 
+}
+
+.copyright {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.copyright p {
+    font-weight: 400;
+    font-size: 14px;
+}
+ /* end FOOTER */
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1200px) {
+    
+    .dashed-line {
+        width: 8%;
+        left: 21%;
+    }
+
+    .line2 {
+        left: 46%;
+    }
+
+    .line3 {
+        left: 71%;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    
+    .dashed-line {
+        display: none;
+    }
+
+    .advantage-column-item {
+        margin-bottom: 40px;
+    }
+
+    .lightbook,
+    .classicbook,
+    .premiumbook,
+    .term,
+    .payment,
+    .shipping {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .testimonials {
+        background-image: none;
+    }
+
+    .quick-about {
+        margin-left: 0;
+    }
+
+    .quick-social {
+        float: none;
+        margin-right: 0;
+    }
+}
+
+
+@media screen and (max-width: 475px) {
+
+    .telephone {
+        display: none;
+    }
+
+    .button {
+        width: 90%;
+    }
+
+    .button a {
+        font-size: 20px;
+    }
+
+    .testimonials-column-item, 
+    .testimonials .section-title {
+        margin-left: 0;
+    }
+}
